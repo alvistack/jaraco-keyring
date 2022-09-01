@@ -1,0 +1,4 @@
+python-keyring source: no-debian-changes
+python-keyring source: source-contains-prebuilt-windows-binary
+python-keyring source: source-is-missing
+python-keyring source: source-package-encodes-python-version
