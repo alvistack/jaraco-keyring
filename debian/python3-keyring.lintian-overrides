@@ -1,0 +1,4 @@
+python3-keyring: copyright-without-copyright-notice
+python3-keyring: initial-upload-closes-no-bugs
+python3-keyring: no-manual-page
+python3-keyring: zero-byte-file-in-doc-directory
