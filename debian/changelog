@@ -1,0 +1,5 @@
+python-keyring (100:25.3.0-1) UNRELEASED; urgency=medium
+
+  * https://github.com/jaraco/keyring/releases/tag/v25.3.0
+
+ -- Wong Hoi Sing Edison <hswong3i@pantarei-design.com>  Sat, 17 Aug 2024 12:47:44 +0800
