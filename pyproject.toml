@@ -1,9 +1,10 @@
 [build-system]
-requires = ["setuptools>=61.2", "setuptools_scm[toml]>=3.4.1"]
+requires = ["setuptools>=61.2"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "keyring"
+version = "25.4.1"
 authors = [
 	{ name = "Kang Zhang", email = "jobo.zh@gmail.com" },
 ]
@@ -30,7 +31,6 @@ dependencies = [
 	"jaraco.functools",
 	"jaraco.context",
 ]
-dynamic = ["version"]
 
 [project.urls]
 Source = "https://github.com/jaraco/keyring"
@@ -96,6 +96,3 @@ chainer = "keyring.backends.chainer"
 
 [project.scripts]
 keyring = "keyring.cli:main"
-
-
-[tool.setuptools_scm]
