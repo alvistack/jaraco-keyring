@@ -1,14 +1,12 @@
 [build-system]
 requires = [
 	"setuptools>=77",
-	"setuptools_scm[toml]>=3.4.1",
-	# jaraco/skeleton#174
-	"coherent.licensed",
 ]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "keyring"
+version = "25.7.0"
 authors = [
 	{ name = "Kang Zhang", email = "jobo.zh@gmail.com" },
 ]
@@ -24,7 +22,7 @@ classifiers = [
 	"Programming Language :: Python :: 3 :: Only",
 ]
 requires-python = ">=3.9"
-license = "MIT"
+license = { text = "MIT" }
 dependencies = [
 	'pywin32-ctypes>=0.2.0; sys_platform=="win32"',
 	'SecretStorage>=3.2; sys_platform=="linux"',
@@ -34,7 +32,6 @@ dependencies = [
 	"jaraco.functools",
 	"jaraco.context",
 ]
-dynamic = ["version"]
 
 [project.urls]
 Source = "https://github.com/jaraco/keyring"
@@ -100,6 +97,3 @@ chainer = "keyring.backends.chainer"
 
 [project.scripts]
 keyring = "keyring.cli:main"
-
-
-[tool.setuptools_scm]
